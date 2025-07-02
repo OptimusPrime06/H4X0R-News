@@ -6,17 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5C20630A2CE61D6400990B00 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2063092CE61D6400990B00 /* NetworkManager.swift */; };
-		5C20630C2CE61FA300990B00 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20630B2CE61FA300990B00 /* PostData.swift */; };
-		5C862F002CE795C000D24C72 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C862EFF2CE795C000D24C72 /* WebView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		5C02907A2CE56459008C3BD8 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C2063092CE61D6400990B00 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		5C20630B2CE61FA300990B00 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
-		5C862EFF2CE795C000D24C72 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -42,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				5C02907C2CE56459008C3BD8 /* H4X0R News */,
-				5C2063082CE61D0300990B00 /* Models */,
 				5C02907B2CE56459008C3BD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,16 +43,6 @@
 				5C02907A2CE56459008C3BD8 /* H4X0R News.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5C2063082CE61D0300990B00 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5C2063092CE61D6400990B00 /* NetworkManager.swift */,
-				5C20630B2CE61FA300990B00 /* PostData.swift */,
-				5C862EFF2CE795C000D24C72 /* WebView.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C20630A2CE61D6400990B00 /* NetworkManager.swift in Sources */,
-				5C20630C2CE61FA300990B00 /* PostData.swift in Sources */,
-				5C862F002CE795C000D24C72 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
